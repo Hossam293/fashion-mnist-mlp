@@ -1,9 +1,5 @@
 # Fashion-MNIST Classification
 ### Using Multilayer Perceptron (MLP)
-**Neural Networks Course — Project README**
-
-**GitHub:** [https://github.com/Hossam293](https://github.com/Hossam293)
-
 ---
 
 ## Problem Description
@@ -72,8 +68,8 @@ Three MLP configurations were trained and compared. Each model was evaluated on 
 | Model | Activation | Optimizer | Epochs | Regularization | Hidden Neurons | Test Accuracy |
 |-------|-----------|-----------|--------|----------------|----------------|---------------|
 | Model 1 (Baseline) | ReLU | SGD | 15 | None | 128, 64 | ~84% |
-| Model 2 | ReLU | Adam | 15 | BatchNorm + Dropout | 128, 64 | ~88% |
-| Model 3 | Tanh | Adam | 20 | BatchNorm + Dropout | 512, 256 | ~87% |
+| Model 2 | ReLU | Adam | 15 | BatchNorm + Dropout | 128, 64 | ~87% |
+| Model 3 | Tanh | Adam | 20 | BatchNorm + Dropout | 512, 256 | ~89% |
 
 > **Note:** Replace the accuracy values with the exact numbers printed by the notebook after running all three models.
 
@@ -100,11 +96,6 @@ pip install torch torchvision matplotlib numpy
 ```bash
 git clone https://github.com/Hossam293/fashion-mnist-mlp.git
 cd fashion-mnist-mlp
-```
-
-2. Open the notebook:
-```bash
-jupyter notebook project_nn.ipynb
 ```
 
 3. Run all cells sequentially (*Kernel → Restart & Run All*)
